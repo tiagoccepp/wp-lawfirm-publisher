@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Ilustración editorial: frontón y columnas clásicas en trazo ocre sobre fondo marfil">
+  <rect width="1200" height="600" fill="#EFE8D8"/>
+  <g fill="none" stroke="#6E531A" stroke-width="6">
+    <path d="M120 170 L600 60 L1080 170 Z"/>
+    <circle cx="600" cy="132" r="14"/>
+    <line x1="120" y1="170" x2="1080" y2="170"/>
+    <line x1="150" y1="200" x2="1050" y2="200"/>
+    <g stroke-width="6">
+      <line x1="230" y1="200" x2="230" y2="470"/>
+      <line x1="270" y1="200" x2="270" y2="470"/>
+      <line x1="440" y1="200" x2="440" y2="470"/>
+      <line x1="480" y1="200" x2="480" y2="470"/>
+      <line x1="720" y1="200" x2="720" y2="470"/>
+      <line x1="760" y1="200" x2="760" y2="470"/>
+      <line x1="930" y1="200" x2="930" y2="470"/>
+      <line x1="970" y1="200" x2="970" y2="470"/>
+    </g>
+    <line x1="180" y1="470" x2="1020" y2="470"/>
+    <line x1="150" y1="500" x2="1050" y2="500"/>
+    <line x1="120" y1="530" x2="1080" y2="530"/>
+  </g>
+  <g font-family="monospace" font-size="26" fill="#57615B" letter-spacing="6">
+    <text x="120" y="572">LEX · AEQUITAS · FIDES</text>
+  </g>
+</svg>
