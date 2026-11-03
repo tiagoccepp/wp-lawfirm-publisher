@@ -1,0 +1,47 @@
+[
+  {
+    "key": "group_lawfirm_article_hero",
+    "title": "Article hero",
+    "fields": [
+      {
+        "key": "field_lawfirm_kicker",
+        "label": "Kicker",
+        "name": "kicker",
+        "type": "text",
+        "instructions": "Eyebrow line above the title: real info only (practice area, no decoration). Example: “Societario”.",
+        "required": 0,
+        "maxlength": 60,
+        "placeholder": "Societario"
+      },
+      {
+        "key": "field_lawfirm_hero_image",
+        "label": "Hero image",
+        "name": "hero_image",
+        "type": "image",
+        "instructions": "Wide hero (1600×800 crop). ALT TEXT IS REQUIRED — describe the image for screen readers; it ships in the img tag.",
+        "required": 0,
+        "return_format": "array",
+        "preview_size": "medium",
+        "min_width": 1200,
+        "min_height": 500
+      },
+      {
+        "key": "field_lawfirm_toc_toggle",
+        "label": "Show table of contents",
+        "name": "toc_toggle",
+        "type": "true_false",
+        "instructions": "Auto-builds a sticky TOC from the post h2s. Turn off for short posts (< 4 sections).",
+        "required": 0,
+        "default_value": 1,
+        "ui": 1,
+        "ui_on_text": "Show",
+        "ui_off_text": "Hide"
+      }
+    ],
+    "location": [[{ "param": "post_type", "operator": "==", "value": "post" }]],
+    "position": "acf_after_title",
+    "style": "default",
+    "active": true,
+    "description": "Hero fields for Lawfirm Publisher single posts. Import via ACF > Tools, or keep this file in the theme acf-json dir (auto-loaded)."
+  }
+]
